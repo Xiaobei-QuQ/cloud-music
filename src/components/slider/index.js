@@ -28,7 +28,7 @@ function Slider(props) {
         <div className="swiper-wrapper">
           {bannerList.map((slider) => {
             return (
-              <div className="swiper-slide" key={slider.id}>
+              <div className="swiper-slide" key={slider.imageUrl}>
                 <div className="slider-nav">
                   <img
                     src={slider.imageUrl}
