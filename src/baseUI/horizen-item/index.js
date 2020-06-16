@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, memo } from "react";
+import React, { useRef, useEffect, memo } from "react";
 import Scroll from "../scroll/index";
 import { PropTypes } from "prop-types";
 import { List, ListItem } from "./style";
